@@ -9,15 +9,18 @@
 </head>
 <body>
 	<header>
-		<h1>Calculator</h1>
+		<h1>計算機</h1>
 	</header>
 	<section id="calculator">
-		<input type="number" id="input-number"/>
+		<input type="number" id="input-number" value="0"/>
 		<div id="calc-actions">
 			<button type="button" id="btn-plus">+</button>
 			<button type="button" id="btn-minus">-</button>
-			<button type="button" id="btn-multiply">✖️</button>
+			<button type="button" id="btn-multiply">x</button>
 			<button type="button" id="btn-divide">÷</button>
+		</div>
+		<div id="calc-actions">
+			<button type="button" id="btn-delete">削除</button>
 		</div>
 	</section>
 	<section id="resultArea">
@@ -26,4 +29,5 @@
 	</section>
 </body>
 <script src="js/main.js"></script>
+<script src="js/calc.js"></script>
 </html>
